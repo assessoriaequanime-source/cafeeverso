@@ -59,10 +59,10 @@ function Profile() {
           <div className="flex items-start gap-5">
             <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-full bg-gradient-to-br from-accent/40 to-primary/30">
               <div className="absolute inset-0 grain" />
-              <span className="absolute inset-0 grid place-items-center font-serif text-2xl text-foreground">A</span>
+              <span className="absolute inset-0 grid place-items-center font-serif text-2xl text-foreground">R</span>
             </div>
             <div className="min-w-0 flex-1">
-              <p className="font-serif text-[22px] text-foreground">Ana Martins</p>
+              <p className="font-serif text-[22px] text-foreground">Rafaela Alves</p>
               <p className="mt-1 font-mono text-[10.5px] tracking-[0.2em] text-muted-foreground uppercase">
                 São Paulo · BR · membro desde 2025
               </p>
