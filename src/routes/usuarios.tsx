@@ -143,7 +143,7 @@ function Multilingual() {
   const messages = [
     { user: "Lukas", city: "Berlin · DE", text: "Ich finde Pessoas Heteronyme faszinierend.", view: "Acho os heterônimos do Pessoa fascinantes.", side: "left" as const },
     { user: "Sarah", city: "New York · US", text: "Heteronyms feel like parallel selves.", view: "Heterônimos parecem eus paralelos.", side: "right" as const },
-    { user: "Ana", city: "São Paulo · BR", text: "Pessoa fez de cada nome um universo.", view: "Pessoa made every name a universe.", side: "left" as const },
+    { user: "Rafaela", city: "São Paulo · BR", text: "Pessoa fez de cada nome um universo.", view: "Pessoa made every name a universe.", side: "left" as const },
   ];
   return (
     <section className="border-b border-border py-24 lg:py-32">
