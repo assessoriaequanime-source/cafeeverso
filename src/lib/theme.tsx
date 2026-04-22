@@ -14,12 +14,9 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
+    // Default to "light" (Modo Leitor). Only honor a stored preference.
     const stored = (typeof window !== "undefined" && localStorage.getItem("cv-theme")) as Theme | null;
-    const initial: Theme =
-      stored ??
-      (typeof window !== "undefined" && window.matchMedia("(prefers-color-scheme: dark)").matches
-        ? "dark"
-        : "light");
+    const initial: Theme = stored === "dark" || stored === "light" ? stored : "light";
     setTheme(initial);
   }, []);
 
